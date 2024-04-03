@@ -1,0 +1,17 @@
+[package]
+name = "bracktorio"
+version = "0.0.1"
+edition = "2021"
+
+[[bin]]
+name = "bracktorio"
+path = "src/main.rs"
+
+[lib]
+name = "bracktorio"
+path = "src/lib.rs"
+
+[dependencies]
+bracket-lib = "0.8.7"
+specs = "0.20.0"
+specs-derive = {version = "0.4.1"}
